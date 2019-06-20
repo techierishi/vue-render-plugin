@@ -7,7 +7,7 @@
   "scripts": {
     "build": "rete --build rete.config.js",
     "build:dev": "rete --build rete.config.js --watch",
-    "prepublish": "npm run build"
+    "prepublishOnly": "echo -----------vue-render-plugin------------ "
   },
   "author": "Vitaliy Stoliarov",
   "license": "MIT",
