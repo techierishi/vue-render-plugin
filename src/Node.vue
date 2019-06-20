@@ -1,5 +1,5 @@
 <template lang="pug">
-.node(:class="[selected(), node.name] | kebab")
+.node(:class="[selected(), node.name, cssclass] | kebab")
   .title {{node.name}}
 
   // Outputs
